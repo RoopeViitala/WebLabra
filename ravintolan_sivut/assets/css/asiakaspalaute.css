@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("ravintola2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.palaute{
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.6);
+}
+
+input, select {
+    color: white;
+    background-color: darkslategray;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    color: white;
+    background-color: darkslategray;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
